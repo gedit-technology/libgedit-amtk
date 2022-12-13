@@ -1,6 +1,0 @@
-{
-global:
-  amtk_*;
-local:
-  *;
-};
