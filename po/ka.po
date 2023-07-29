@@ -1,0 +1,35 @@
+# Georgian translation for libgedit-amtk-5.
+# Copyright (C) 2023 libgedit-amtk-5's authors
+# This file is distributed under the same license as the libgedit-amtk-5 package.
+# Ekaterine Papava <papava.e@gtu.ge>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: libgedit-amtk-5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-07-29 15:49+0200\n"
+"PO-Revision-Date: 2023-07-29 15:51+0200\n"
+"Last-Translator: Ekaterine Papava <papava.e@gtu.ge>\n"
+"Language-Team: Georgian <(nothing)>\n"
+"Language: ka\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.3.2\n"
+
+#. Translators: %s is a filename.
+#: amtk/amtk-application-window.c:359
+#, c-format
+msgid "Open “%s”"
+msgstr "\"%s\"-ის გახსნა"
+
+#: amtk/amtk-application-window.c:635
+msgid "Open _Recent"
+msgstr "_უახლესი ფაილების გახსნა"
+
+#. Translators: %s is the application name.
+#: amtk/amtk-application-window.c:638
+#, c-format
+msgid "Open a file recently used with %s"
+msgstr "%s-სთან ერთად ახლახანს გამოყენებული ფაილის გახსნა"
