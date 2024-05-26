@@ -112,7 +112,10 @@ add_project_arguments(supported_warning_cflags, language: 'c')
 
 subdir('po')
 subdir('amtk')
-subdir('tests')
+
+if get_option('tests')
+  subdir('tests')
+endif
 
 if get_option('gtk_doc')
   subdir('docs/reference')
@@ -122,3 +125,4 @@ summary('API version', AMTK_API_VERSION)
 summary('Prefix', get_option('prefix'))
 summary('GObject Introspection', get_option('gobject_introspection'))
 summary('API documentation', get_option('gtk_doc'))
+summary('Build tests', get_option('tests'))
