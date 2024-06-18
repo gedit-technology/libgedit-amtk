@@ -6,14 +6,6 @@ Old name
 
 libgedit-amtk was simply named Amtk until November 2022.
 
-About versions
---------------
-
-libgedit-amtk follows the even/odd minor version scheme.
-
-For example the `5.1.x` versions are unstable (development versions), and the
-`5.2.x` versions are stable.
-
 Dependencies
 ------------
 
